@@ -4,6 +4,9 @@ I made this email template for my job applications.
 
 Made with [mjml](https://mjml.io/)
 
-# Author
+## Author
 
-[Asael Jaimes](http://realnerdo.com/)
+Asael Jaimes
+
+[Portfolio](http://realnerdo.com/)
+Email: [asaelx@gmail.com](mailto:asaelx@gmail.com)
