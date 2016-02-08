@@ -8,5 +8,5 @@ Made with [mjml](https://mjml.io/)
 
 Asael Jaimes
 
-[Portfolio](http://realnerdo.com/)
-Email: [asaelx@gmail.com](mailto:asaelx@gmail.com)
+- [Portfolio](http://realnerdo.com/)
+- Email: [asaelx@gmail.com](mailto:asaelx@gmail.com)
