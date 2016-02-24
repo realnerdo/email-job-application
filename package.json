@@ -1,0 +1,33 @@
+{
+  "name": "job-application-template",
+  "version": "1.0.0",
+  "description": "I made this email template for my job applications.",
+  "main": "dist/index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/realnerdo/email-job-application.git"
+  },
+  "keywords": [
+    "email",
+    "job",
+    "application",
+    "mjml",
+    "template"
+  ],
+  "author": "Asael Jaimes <asaelx@gmail.com> (http://realnerdo.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/realnerdo/email-job-application/issues"
+  },
+  "homepage": "https://github.com/realnerdo/email-job-application#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-connect": "^2.3.1",
+    "gulp-mjml": "^1.0.0",
+    "gulp-notify": "^2.2.0"
+  }
+}
