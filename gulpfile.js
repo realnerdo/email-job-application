@@ -4,16 +4,24 @@ var gulp    = require('gulp'),
     connect = require('gulp-connect'),
     notify  = require('gulp-notify');
 
-gulp.task('template', function() {
-    gulp.src('src/template.mjml')
+gulp.task('templates', function() {
+    gulp.src('src/mjml/*.mjml')
         .pipe(mjml())
-        .pipe(gulp.dest('src'));
+        .pipe(gulp.dest('src/html'))
+        .pipe(gulp.dest('dist'));
 });
 
-gulp.task('build', function() {
-    gulp.src(['./src/headers.html', './src/template.html'])
-        .pipe(concat('index.html'))
-        .pipe(gulp.dest('./dist/'))
+gulp.task('en', function() {
+    gulp.src(['./src/html/headers.html', './src/html/english.html'])
+        .pipe(concat('english.html'))
+        .pipe(gulp.dest('./dist/send'))
+        .pipe(notify("Let's get that job!"));
+});
+
+gulp.task('sp', function() {
+    gulp.src(['./src/html/headers.html', './src/html/spanish.html'])
+        .pipe(concat('spanish.html'))
+        .pipe(gulp.dest('./dist/send'))
         .pipe(notify("Let's get that job!"));
 });
 
@@ -25,8 +33,7 @@ gulp.task('connect', function() {
 });
 
 gulp.task('watch', function() {
-    gulp.watch('src/template.mjml', ['template']);
-    gulp.watch('src/*.html', ['build']);
+    gulp.watch('src/mjml/*.mjml', ['templates']);
 });
 
 gulp.task('default', ['connect', 'watch']);

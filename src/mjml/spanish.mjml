@@ -1,0 +1,157 @@
+<mj-body>
+    <!-- Saludo -->
+    <mj-section
+        background-url="https://s3-us-west-2.amazonaws.com/realnerdo/uploads/email/header-bg.jpg">
+        <mj-column>
+            <mj-image
+                src="https://s3-us-west-2.amazonaws.com/realnerdo/uploads/email/asaelx.png"
+                width="90" align="center"
+                padding-top="35">
+            </mj-image>
+            <mj-text
+                font-size="20"
+                align="center"
+                color="#FFFFFF"
+                padding-bottom="35">
+                Hola, buen día
+            </mj-text>
+        </mj-column>
+    </mj-section>
+    <!-- Body -->
+    <mj-section background-color="#ECF0F1" padding-bottom="0">
+        <mj-column>
+            <mj-text
+                font-size="16"
+                align="left"
+                color="#34495E"
+                line-height="2">
+                Hola, me llamo Asael, tengo 26 años, soy Desarrollador/Diseñador Web y quiero trabajar como Desarrollador de Front End. Actualmente estoy viviendo en Mérida, Yucatán. Puedo trabajar de manera remota con constante comunicación y disponibilidad.
+            </mj-text>
+            <mj-text
+                font-size="16"
+                align="left"
+                color="#34495E"
+                line-height="2">
+                Tengo una fuerte experiencia trabajando con PHP, HTML5, CSS3 and Javascript (con y sin frameworks). He usado mucho de Wordpress, Laravel, CodeIgniter, jQuery, CSS3, Sass, Less, Jade, Bootstrap, Foundation, Diseño Responsivo, REST APIs, SEO, Amazon S3, Photoshop, Illustrator, Sketch, Git, SSH, Apache, Nginx, Vagrant, entre otros.
+            </mj-text>
+            <mj-text
+                font-size="16"
+                align="left"
+                color="#34495E"
+                line-height="2">
+                También tengo extensos conocimientos de AngularJS y NodeJS.
+            </mj-text>
+            <mj-text
+                font-size="16"
+                align="left"
+                color="#34495E"
+                line-height="2">
+                Hasta la fecha tengo casi 4 años de experiencia profesional diseñando interfaces web, UI, UX, aplicaciones web, desarrollando tanto en back end como en front end. Tengo una pasión por la tecnología y el buen diseño. Me encanta aprender mucho, encontrar soluciones, soy muy autodidacta y me encanta usar las últimas tecnologías.
+            </mj-text>
+            <mj-text
+                font-size="16"
+                align="left"
+                color="#34495E"
+                line-height="2">
+                Si se require tengo muy buen inglés, tanto escrito como hablado, excelente gramática y ortografía y todos mis documentos, como cédula, pasaporte, visa, etc.
+            </mj-text>
+            <mj-text
+                font-size="16"
+                align="left"
+                color="#34495E"
+                line-height="2">
+                Quedo a su disposición para agendar una entrevista.
+            </mj-text>
+            <mj-text
+                font-size="16"
+                align="left"
+                color="#34495E"
+                line-height="2">
+                <strong>Saludos y que tenga un excelente día.<br />Asael Jaimes</strong>
+            </mj-text>
+        </mj-column>
+    </mj-section>
+    <!-- Links -->
+    <mj-section
+        background-color="#ECF0F1"
+        padding-bottom="0">
+        <mj-column>
+            <mj-button
+                href="http://realnerdo.com/"
+                background-color="#1ABC9C"
+                color="#FFFFFF"
+                font-size="18"
+                font-family="Ubuntu, Helvetica Neue, Arial, sans-serif"
+                font-weight="light"
+                border-radius="3px"
+                padding="10px 20px">
+                Ir a mi Portfolio
+            </mj-button>
+        </mj-column>
+        <mj-column>
+            <mj-button
+                href="https://s3-us-west-2.amazonaws.com/realnerdo/uploads/files/Asael+Resume.pdf"
+                background-color="#1ABC9C"
+                color="#FFFFFF"
+                font-size="18"
+                font-family="Ubuntu, Helvetica Neue, Arial, sans-serif"
+                font-weight="light"
+                border-radius="3px"
+                padding="10px 20px">
+                Ir a mi CV
+            </mj-button>
+        </mj-column>
+    </mj-section>
+    <mj-section
+        background-color="#ECF0F1"
+        padding-bottom="30px">
+        <mj-column>
+            <mj-button
+                href="https://github.com/realnerdo?tab=repositories"
+                background-color="#1ABC9C"
+                color="#FFFFFF"
+                font-size="18"
+                font-family="Ubuntu, Helvetica Neue, Arial, sans-serif"
+                font-weight="light"
+                border-radius="3px"
+                padding="10px 20px">
+                Ir a mi Github
+            </mj-button>
+        </mj-column>
+        <mj-column>
+            <mj-button
+                href="https://github.com/realnerdo/email-job-application"
+                background-color="#1ABC9C"
+                color="#FFFFFF"
+                font-size="18"
+                font-family="Ubuntu, Helvetica Neue, Arial, sans-serif"
+                font-weight="light"
+                border-radius="3px"
+                padding="10px 20px">
+                Repo de este correo
+            </mj-button>
+        </mj-column>
+    </mj-section>
+    <!-- Firma -->
+    <mj-section
+        background-url="https://s3-us-west-2.amazonaws.com/realnerdo/uploads/email/footer-bg.jpg"
+        background-size="cover">
+        <mj-column>
+            <mj-text
+                font-size="16"
+                align="center"
+                color="#FFFFFF"
+                padding="30px 0">
+                I.S.C. Asael Octavio Chávez Jaimes
+                <br />
+                Skype ID: asaelx
+                <br />
+                Celular: +52 (999) 2175661
+                <br />
+                E-mail: asaelx@gmail.com
+                <br />
+                Portafolio: http://realnerdo.com
+            </mj-text>
+        </mj-column>
+    </mj-section>
+</mj-body>
